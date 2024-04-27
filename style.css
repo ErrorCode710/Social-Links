@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 1rem;  
+}
+.social-media a {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  font-size: 0.8rem;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 10px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  text-align: center;
+  text-wrap: nowrap;
+}
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+}
+h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: hsl(75, 94%, 57%);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  font-size: 0.7rem;
+  padding-top: 2rem;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 8%);
+margin-top: 5rem;
+  
+}
+img {
+  border-radius: 50px;
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 15px;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1.5rem;
+  max-width: 90%;
+  max-height: 90%;
+}
+a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 100%);
+  
+}
